@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ads-trade"
+version = "0.1.0"
+description = ""
+authors = ["Emanuele <emanuelelena021099@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ads_trade"}]
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+networkx = "^3.1"
+pandas = "^2.0.2"
+ipykernel = "^6.23.3"
+scipy = "^1.11.0"
+numpy = "^1.25.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
