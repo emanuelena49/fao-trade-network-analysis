@@ -3,3 +3,6 @@ data/*
 
 # poetry lock file
 poetry.lock
+
+# ipynb checkpoint
+.ipynb_checkpoints/*
